@@ -9,7 +9,8 @@ config.capabilities = [
         "appium:automationName": "xcuitest",
         "appium:deviceName": IosInfo.deviceName(),
         "appium:platformVersion": IosInfo.platFormVersion(),
-        "appium:app": path.resolve(`./apps/ios/${IosInfo.appName()}`)
+        "appium:app": path.resolve(`./apps/ios/${IosInfo.appName()}`),
+        "appium:autoAcceptAlerts": true
     }
 ];
 

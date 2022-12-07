@@ -1,0 +1,36 @@
+[
+{
+	"name": "poii",
+	"accounts": {
+		"dev": {
+			"main": {
+				"cp_number": "0000060896",
+				"otp_code": "346496"
+			},
+			"alt": {
+				"cp_number": "0000080696",
+				"otp_code": "876452"
+			},
+			"viewer": {
+				"cp_number": "0000060891",
+				"otp_code": "643752"
+			}
+		},
+
+		"prod": {
+			"main": {
+				"cp_number": "0000060896",
+				"otp_code": "258380"
+			},
+			"alt": {
+				"cp_number": "0000080696",
+				"otp_code": "682451"
+			},
+			"viewer": {
+				"cp_number": "0000060891",
+				"otp_code": "877803"
+			}
+		}
+	}
+}
+]

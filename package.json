@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "appium -p 4723",
-    "test:ios": "wdio run config/ios.config.js",
-    "test:android": "wdio run config/android.config.js",
+    "test:ios": "wdio run config/ios.config.js --spec ./tests/ios/livestream-regular.spec.js",
+    "test:android": "wdio run config/android.config.js --spec ./tests/android/livestream-regular.spec.js",
     "list:ios": "xcrun xctrace list devices",
     "list:android": "adb devices",
     "check:ios": "appium-doctor --ios",

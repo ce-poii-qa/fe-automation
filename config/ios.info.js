@@ -7,7 +7,7 @@ class IosInfo {
     }
 
     static appName() {
-        return 'wdio.app'; // pass the bundleid or ipa name
+        return 'kumu.app'; // pass the bundleid or ipa name
     }
 }
 
